@@ -1,0 +1,498 @@
+<html>
+	<head>
+		<title>devis_express</title>
+		<link rel="stylesheet" type="text/css" href="../css/devis_css.css" />
+	</head>
+	
+<body background="../images/pret1.jpg">
+	
+	<form action="Envoyedevis.php" method="POST">
+	
+	<div align="center">
+	<h1> Devis Express </h1>
+	</div>
+	
+	
+	<div align="center">
+	<font color="black">
+	<b>[ Les champs obligatoires sont marqu&eacutes d'une * ]</b>
+	</font>
+	</div>
+	<br/>
+	
+
+	
+	<form action="" method="POST">
+    
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	<tr>
+	<td> Agence du/des assur&eacute(s)* 
+	<select name="ASSURRUN" id="ASSURRUN"> 
+		<option name="ASSURRUN">ASSUR RUN </option>
+	</select>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<br/>
+	
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	<tr>
+	<td bgcolor="#5F9EA0">Les assur&eacutes </td>
+	<td bgcolor="#5F9EA0">Assur&eacute 1 </td>
+	<td bgcolor="#5F9EA0">Assur&eacute 2 </td>
+	</tr>
+	<tr>
+	<td><label>Nombre d'assur&eacutes ? </label>
+		<select name="nombredassures" id="nombredassures">
+			<option value="1">1</option>
+			<option value="2">2</option> 
+		</select>
+	</td>
+	</tr>
+	<tr>
+	<td>Civilit&eacute*</td>
+	<td><select name="civilité" id="civilité">
+			<option value="Homme">Homme</option>
+			<option value="Femme">Femme </option> </td>
+		</select>
+	<td><select name="civilité" id="civilité">
+			<option value="Homme">Homme</option>
+			<option value="Femme">Femme </option> </td>
+		</select>
+	</tr>
+
+	<tr>
+	<td>Nom*</td>
+	<td> <input type="text" name="nom" id="nom"> </td>
+	<td> <input type="text" name="nom" id="nom"> </td>
+	</tr>
+	
+	<tr>
+	<td>Pr&eacutenom </td>
+	<td> <input type="text" name="Prénom" id="Prénom"> </td>
+	<td> <input type="text" name="Prénom" id="Prénom"> </td>
+	</tr>
+	
+	<tr>
+	<td>N&eacute(e) le* </td>
+	<td> <input type="text" name="date" id="date"> / <input type="text" name="date" id="date"> / <input type="date" name="date" id="date"> </td>
+	<td> <input type="text" name="date" id="date"> / <input type="text" name="date" id="date"> / <input type="date" name="date" id="date"> </td>
+	</tr>
+	
+	<tr>
+	<td>Fumeur ?*</td>
+	<td><select name="Fumeur" id="Fumeur">
+			<option value="Oui">Oui</option>
+			<option value="Non">Non</option> </td>
+		</select>
+	<td><select name="Fumeur" id="Fumeur">
+			<option value="Oui">Oui</option>
+			<option value="Non">Non</option> </td>
+		</select>
+	</tr>
+	
+	<tr>
+	<td>CSP*</td>
+	<td> <select name="CSP" id="CSP">
+			<option value="salariécadre">Salari&eacute cadre</option>
+			<option value="Salariénoncadre">Salari&eacute non cadre</option> 
+			<option value="Professionlibérale">Profession lib&eacuterale</option>
+			<option value="Professionsmédicaleslibérales">Professions m&eacutedicales lib&eacuterales </option> 
+			<option value="Artisan">Artisan </option> 
+			<option value="Commerçant"> Commer&ccedilant </option> 
+			<option value="Retraitépréretraité">Retrait&eacute, pr&eacute-retrait&eacute </option> 
+			<option value="Sansactivitéprofessionnelle">Sans activit&eacute professionnelle </option> </td>
+			</select>
+	<td> <select name="CSP" id="CSP">
+			<option value="salarié cadre">Salari&eacute cadre</option>
+			<option value="Salarié non cadre">Salari&eacute non cadre</option> 
+			<option value="Profession libérale">Profession lib&eacuterale</option>
+			<option value="Professions médicales libérales">Professions m&eacutedicales lib&eacuterales </option> 
+			<option value="Artisan">Artisan </option> 
+			<option value="Commerçant"> Commer&ccedilant </option> 
+			<option value="Retraité, pré-retraité">Retrait&eacute, pr&eacute-retrait&eacute </option> 
+			<option value="Sans activit&eacute professionnelle">Sans activit&eacute professionnelle </option> </td>
+			</select>
+		
+	</tr>
+	
+	<tr>
+	<td>D&eacuteplacement professionels*</td>
+	<td> <select name="déplacement" id="déplacement">
+			<option value="Moins de 20 000 km/an">Moins de 20 000 km/an</option>
+			<option value="20 000 km/an et plus">20 000 km/an et plus</option> </td>
+		</select>
+	<td> <select name="déplacement" id="déplacement">
+			<option value="Moinsde20000km/an">Moins de 20 000 km/an</option>
+			<option value="20000km/anetplus">20 000 km/an et plus</option> </td>
+		</select>
+	</tr>
+	
+	<tr>
+	<td>Travaux manuels*</td>
+	<td> <select name="travaux" id="travaux">
+		<option value="Aucun">Aucun </option>
+		<option value="Avectravailmoyenléger">Avec travail manuel l&eacuteger ou de pr&eacutecision,sans utilisation d'outillage m&eacutecanique lourd, &agrave bois, d'explosifs, d'echafaudages </option>
+		<option value="Avectravailmanuelmoyen">Avec travail manuel moyen ou important, avec utilisation d'outillage m&eacutecanique lourd, et/ou avec utilisation occasionnelle d'explosifs, et/ou d'&eacutechaffaudage </option> </td>
+		</select>
+	<td> <select name="travaux" id="travaux">
+		<option value="Aucun">Aucun </option>
+		<option value="Avectravailmoyenléger">Avec travail manuel l&eacuteger ou de pre&acutecision, sans utilisation d'outillage m&eacutecanique lourd, &agrave bois, d'explosifs, d'echafaudages </option>
+		<option value="Avectravailmanuelmoyen">Avec travail manuel moyen ou important, avec utilisation d'outillage m&eacutecanique lourd, et/ou avec utilisation occasionnelle d'explosifs, et/ou d'&eacutechaffaudage </option> </td>
+		</select>
+	</tr>
+	
+	<tr>
+	<td>Niveau de couverture</td>
+	<td><select name="pourcent" id="pourcent">
+		<option value="pourcent"> 0% </option>
+		<option value="pourcent"> 1% </option>
+		<option value="pourcent">2% </option>
+		<option value="pourcent"> 3% </option>
+		<option value="pourcent"> 4% </option>
+		<option value="pourcent">5% </option>
+		<option value="pourcent"> 6% </option>
+		<option value="pourcent"> 7% </option>
+		<option value="pourcent">8% </option>
+		<option value="pourcent"> 9% </option>
+		<option value="poourcent"> 10% </option>
+		<option value="pourcent">11% </option>
+		<option value="pourcent"> 12% </option>
+		<option value="pourcent"> 13% </option>
+		<option value="pourcent">14% </option>
+		<option value="pourcent"> 15% </option>
+		<option value="pourcent"> 16% </option>
+		<option value="pourcent">17% </option>
+		<option value="pourcent"> 18% </option>
+		<option value="pourcent"> 19% </option>
+		<option value="pourcent">20% </option>
+		<option value="pourcent"> 21% </option>
+		<option value="pourcent"> 22% </option>
+		<option value="pourcent">23% </option>
+		<option value="pourcent"> 24% </option>
+		<option value="pourcent"> 25% </option>
+		<option value="pourcent">26% </option>
+		<option value="pourcent"> 27% </option>
+		<option value="pourcent"> 28% </option>
+		<option value="pourcent">29% </option>
+		<option value="pourcent"> 30% </option>
+		<option value="pourcent"> 31% </option>
+		<option value="pourcent">32% </option>
+		<option value="pourcent"> 33% </option>
+		<option value="pourcent"> 34% </option>
+		<option value="pourcent">35% </option>
+		<option value="pourcent"> 36% </option>
+		<option value="pourcent"> 37% </option>
+		<option value="pourcent">38% </option>
+		<option value="pourcent"> 39% </option>
+		<option value="poourcent"> 40% </option>
+		<option value="pourcent">41% </option>
+		<option value="pourcent"> 42% </option>
+		<option value="pourcent"> 43% </option>
+		<option value="pourcent">44% </option>
+		<option value="pourcent"> 45% </option>
+		<option value="pourcent"> 46% </option>
+		<option value="pourcent">47% </option>
+		<option value="pourcent"> 48% </option>
+		<option value="pourcent"> 49% </option>
+		<option value="pourcent">50% </option>
+		<option value="pourcent"> 51% </option>
+		<option value="pourcent"> 52% </option>
+		<option value="pourcent">53% </option>
+		<option value="pourcent"> 54% </option>
+		<option value="pourcent"> 55% </option>
+		<option value="pourcent">56% </option>
+		<option value="pourcent"> 57% </option>
+		<option value="pourcent"> 58% </option>
+		<option value="pourcent">59% </option>
+		<option value="pourcent"> 60% </option>
+		<option value="pourcent"> 61% </option>
+		<option value="pourcent">62% </option>
+		<option value="pourcent"> 63% </option>
+		<option value="pourcent"> 64% </option>
+		<option value="pourcent">65% </option>
+		<option value="pourcent"> 66% </option>
+		<option value="pourcent"> 67% </option>
+		<option value="pourcent">68% </option>
+		<option value="pourcent"> 69% </option>
+		<option value="poourcent"> 70% </option>
+		<option value="pourcent">71% </option>
+		<option value="pourcent"> 72% </option>
+		<option value="pourcent"> 73% </option>
+		<option value="pourcent">74% </option>
+		<option value="pourcent"> 75% </option>
+		<option value="pourcent"> 76% </option>
+		<option value="pourcent">77% </option>
+		<option value="pourcent"> 78% </option>
+		<option value="pourcent"> 79% </option>
+		<option value="pourcent">80%</option>
+		<option value="pourcent"> 81% </option>
+		<option value="pourcent"> 82% </option>
+		<option value="pourcent">83% </option>
+		<option value="pourcent"> 84% </option>
+		<option value="pourcent"> 85% </option>
+		<option value="pourcent">86% </option>
+		<option value="pourcent"> 87% </option>
+		<option value="pourcent"> 88% </option>
+		<option value="pourcent">89% </option>
+		<option value="pourcent"> 90% </option>
+		<option value="pourcent"> 91% </option>
+		<option value="pourcent">92% </option>
+		<option value="pourcent"> 93% </option>
+		<option value="pourcent"> 94% </option>
+		<option value="pourcent">95% </option>
+		<option value="pourcent"> 96% </option>
+		<option value="pourcent"> 97% </option>
+		<option value="pourcent">98% </option>
+		<option value="pourcent"> 99% </option>
+		<option value="poourcent"> 100% </option> </td>
+		</select>
+		
+		<td>
+		<select name="pourcent" id="pourcent">
+		<option value="pourcent"> 0% </option>
+		<option value="pourcent"> 1% </option>
+		<option value="pourcent">2% </option>
+		<option value="pourcent"> 3% </option>
+		<option value="pourcent"> 4% </option>
+		<option value="pourcent">5% </option>
+		<option value="pourcent"> 6% </option>
+		<option value="pourcent"> 7% </option>
+		<option value="pourcent">8% </option>
+		<option value="pourcent"> 9% </option>
+		<option value="poourcent"> 10% </option>
+		<option value="pourcent">11% </option>
+		<option value="pourcent"> 12% </option>
+		<option value="pourcent"> 13% </option>
+		<option value="pourcent">14% </option>
+		<option value="pourcent"> 15% </option>
+		<option value="pourcent"> 16% </option>
+		<option value="pourcent">17% </option>
+		<option value="pourcent"> 18% </option>
+		<option value="pourcent"> 19% </option>
+		<option value="pourcent">20% </option>
+		<option value="pourcent"> 21% </option>
+		<option value="pourcent"> 22% </option>
+		<option value="pourcent">23% </option>
+		<option value="pourcent"> 24% </option>
+		<option value="pourcent"> 25% </option>
+		<option value="pourcent">26% </option>
+		<option value="pourcent"> 27% </option>
+		<option value="pourcent"> 28% </option>
+		<option value="pourcent">29% </option>
+		<option value="pourcent"> 30% </option>
+		<option value="pourcent"> 31% </option>
+		<option value="pourcent">32% </option>
+		<option value="pourcent"> 33% </option>
+		<option value="pourcent"> 34% </option>
+		<option value="pourcent">35% </option>
+		<option value="pourcent"> 36% </option>
+		<option value="pourcent"> 37% </option>
+		<option value="pourcent">38% </option>
+		<option value="pourcent"> 39% </option>
+		<option value="poourcent"> 40% </option>
+		<option value="pourcent">41% </option>
+		<option value="pourcent"> 42% </option>
+		<option value="pourcent"> 43% </option>
+		<option value="pourcent">44% </option>
+		<option value="pourcent"> 45% </option>
+		<option value="pourcent"> 46% </option>
+		<option value="pourcent">47% </option>
+		<option value="pourcent"> 48% </option>
+		<option value="pourcent"> 49% </option>
+		<option value="pourcent">50% </option>
+		<option value="pourcent"> 51% </option>
+		<option value="pourcent"> 52% </option>
+		<option value="pourcent">53% </option>
+		<option value="pourcent"> 54% </option>
+		<option value="pourcent"> 55% </option>
+		<option value="pourcent">56% </option>
+		<option value="pourcent"> 57% </option>
+		<option value="pourcent"> 58% </option>
+		<option value="pourcent">59% </option>
+		<option value="pourcent"> 60% </option>
+		<option value="pourcent"> 61% </option>
+		<option value="pourcent">62% </option>
+		<option value="pourcent"> 63% </option>
+		<option value="pourcent"> 64% </option>
+		<option value="pourcent">65% </option>
+		<option value="pourcent"> 66% </option>
+		<option value="pourcent"> 67% </option>
+		<option value="pourcent">68% </option>
+		<option value="pourcent"> 69% </option>
+		<option value="poourcent"> 70% </option>
+		<option value="pourcent">71% </option>
+		<option value="pourcent"> 72% </option>
+		<option value="pourcent"> 73% </option>
+		<option value="pourcent">74% </option>
+		<option value="pourcent"> 75% </option>
+		<option value="pourcent"> 76% </option>
+		<option value="pourcent">77% </option>
+		<option value="pourcent"> 78% </option>
+		<option value="pourcent"> 79% </option>
+		<option value="pourcent">80% </option>
+		<option value="pourcent"> 81% </option>
+		<option value="pourcent"> 82% </option>
+		<option value="pourcent">83% </option>
+		<option value="pourcent"> 84% </option>
+		<option value="pourcent"> 85% </option>
+		<option value="pourcent">86% </option>
+		<option value="pourcent"> 87% </option>
+		<option value="pourcent"> 88% </option>
+		<option value="pourcent">89% </option>
+		<option value="pourcent"> 90% </option>
+		<option value="pourcent"> 91% </option>
+		<option value="pourcent">92% </option>
+		<option value="pourcent"> 93% </option>
+		<option value="pourcent"> 94% </option>
+		<option value="pourcent">95% </option>
+		<option value="pourcent"> 96% </option>
+		<option value="pourcent"> 97% </option>
+		<option value="pourcent">98% </option>
+		<option value="pourcent"> 99% </option>
+		<option value="poourcent"> 100% </option></td>
+		</select>
+		
+		</tbody>
+	</table>
+	
+	<br/>
+	
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	<tr>
+	<td bgcolor="#5F9EA0">Les pr&ecircts </td>
+	<td bgcolor="#5F9EA0"> </td>
+	<td bgcolor="#5F9EA0"> </td>
+	<td bgcolor="#5F9EA0"> </td>
+	<td bgcolor="#5F9EA0"> </td>
+	<td bgcolor="#5F9EA0"> </td>
+	<td bgcolor="#5F9EA0"> </td>
+	</tr>
+	<tr>
+	<td><label>Nombre de pr&ecircts? </label>
+		<select name="prêt" id="prêt">
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option> </td>
+		</select>
+	</tr>
+	<tr>
+	<td> </td>
+	<td> Numero</td>
+	<td>Type de pr&ecirct </td>
+	<td> Montant*(&#128)</td>
+	<td>Taux*(%)</td>
+	<td>Dur&eacutee*(mois)</td>
+	<td>Dont diff&eacuter&eacute(mois)</td>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td>1</td>
+	<td> <select name="typedepret" id="typedepret">
+		<option value="Amortissable">Amortissable</option>
+		<option value="In-Fine">In-Fine</option>
+		<option value="Relais">Relais</option>
+		<option value="Créditbail">Cr&eacutedit bail</option>
+		<option value="LOA">LOA</option>
+		<option value="Taux0%">Taux 0%</option>
+		<option value="Paliers">Paliers</option>
+		<option value="Prêtdhonneur">Pr&ecirct d'honneur</option>
+		<option value="Restructuration">Restructuration</option>
+	</td>
+	<td> <input type="text" name="montant" id="montant"> </td>
+	<td> <input type="text" name="taux" id="taux"> </td>
+	<td> <input type="text" name="durée" id="durée"> </td>
+	<td> <input type="text" name="dont" id="dont"> </td>
+	</tr>
+	
+	<tr>
+	<td>Date d&eacutebut de garantie*</td>
+	<td> <input type="text" name="date" id="date"> / <input type="text" name="date" id="Prénom"> / <input type="date" name="date" id="date"> </td>
+	</tr>
+	
+	</tbody>
+</table>
+
+<br/>
+	<div class="ca">
+	<h2>Les garanties </h2>
+	<fieldset>
+		<legend>Garanties de base</legend>
+		<p>-D&eacutec&egraves et Perte Totale et Irr&eacuteversible d'Autonomie </p>
+		<select name="defaut" id="defaut">
+			<option value="Pardéfaut">Par d&eacutefaut </option>
+		</select>
+	<p>-Incapacit&eacute Temporaire Partielle(I.T.P)-Invalidit&eacute Permanente Totale(I.P.T)</p>
+
+	 <select name="ipt" id="ipt">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+	</select>
+	
+	</fieldset>
+	
+	
+	<fieldset>
+	
+		<legend>Garanties optionnelles</legend>
+		
+		<p>-Incapacit&eacute Temporaire Partielle(I.T.P)-Invalidit&eacute Permanente Partielle(I.P.P.) </p>
+	<select name="ipp" id="ipp">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+	</select>
+	
+		<p>Invalidit&eacute Professionnelle Permanente(IPPRO)</p>
+	<select name="ippro" id="ippro">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+	</select>
+	
+		<p>Arr&ecirct de travail li&eacute aux probl&egravemes de dos et de maladies psychologiques </p>
+	<select name="arrêt" id="arrêt">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+	</select>
+	
+		<p>Perte emploi</p>
+	<select name="perte" id="perte">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+	</select>
+	
+	</fieldset>
+	
+	<fieldset>
+		<legend>Franchise </legend>
+		<p>Veuillez choisir une franchise pour l'ensemble des pr&ecircts </p>
+		<select name="necessaire" id="necessaire">
+			<option value="nonnecessaire">non n&eacutecessaire </option>
+		</select>
+	</fieldset>
+	
+	</div>
+	
+	 </br>
+	 
+	<div align="center">
+	<a href="assurances_pret.html">
+	<img src="../images/retour.jpg"  alt="contour" />
+	</a>
+	<input type="submit" value="Valider"/>
+	</div>
+	
+	</form>
+	
+	
+	
+	</body>
+</html>

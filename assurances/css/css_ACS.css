@@ -1,0 +1,14 @@
+table{
+	background-color:#F0FFFF;
+}
+
+div{
+	background-color:white;
+	border:solid 2px;
+	margin-left:300px;
+	margin-right:300px
+}
+
+caption{
+	background-color:white
+}

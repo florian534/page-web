@@ -1,0 +1,27 @@
+body{
+	background-color: #B0C4DE;
+}
+
+fieldset{
+	background-color:#B0C4DE;
+	margin-left:50px;
+	margin-right:0px;
+}
+.p{
+	position:absolute;
+	background-color:#E6E6FA;
+	margin-left: 250px;
+	margin-right:400px;
+	margin-top:0px;
+	border:double 2px
+}	
+
+table{
+	border-color:transparent;
+	margin-right:100px;
+}
+ul{
+	border:dotted 1px;
+	margin-left:100px;
+	margin-right:100px;	
+}

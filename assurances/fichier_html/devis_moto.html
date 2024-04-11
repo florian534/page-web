@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>Devis d'assurance automobile</title>
+		<link rel="stylesheet" type="text/css" href="../css/devis_automobile.css" />
+	</head>
+	
+	<body background="../images/devis_automobile1.jpg">
+	
+	<div align="center">
+	
+	<h1> Devis gratuit d'assurance moto </h1>
+	
+	<form action="devis_moto.php" method="POST">
+	
+	<label>Nom:</label><input type="text" name="Nom" id="Nom"/> 
+	<label>Pr&eacutenom: </label>  <input type="text" name="Prénom" id="Prénom"/>	
+	<label>Date de naissance:</label><input type="text" name="datedenaissance" id="datedenaissance"/> <br/><br/>
+	<label>Num&eacutero de t&eacutel&eacutephone:</label> <input type="text" name="numero" id="numero"/> 
+	<label>Adresse email:</label> <input type="text" name="numero" id="numero"/> 
+	<label>Code postal:</label> <input type="text" name="code" id="code"/> 
+	
+	<br/><br/>
+	
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	
+	<tr>
+	<td><label>Le v&eacutehicule <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="marque" id="marque" placeholder="Marque">
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="modele" id="modele" placeholder="Modele">
+	</td>
+	</tr>
+	
+	<tr>
+		<td> <label> Le v&eacutehcule que vous souhaitez assurer est:<br/>
+		&nbsp&nbsp&nbsp </label> </td>
+		<td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	<select name="véhicule" id="véhicule">
+					<option value="moto">moto</option>
+					<option value="scooter">scooter</option>
+					<option value="quad">quad</option>
+					<option value="cyclo">cyclo</option>
+			</select>	</td>
+	</tr>
+	
+	
+	<tr>
+	<td><label>	&Acircge du conducteur <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <select name="age" id="age">
+		<option value="21ans">Moins de 21ans</option>
+		<option value="70ans">Entre 21ans et 70ans</option>
+	</td>
+	</tr>
+	<tr>
+	<td><label>Nombre d'ann&eacutees d'assurances <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <select name="année" id="année">
+		<option value="un">1 &agrave 13 ans</option>
+		<option value="treize">+13 ans</option>
+		</select>
+	</td>
+	</tr>
+	<tr>
+	<td><label>Bonus malus <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="bonus" id="bonus"/></td>
+	</tr>
+	<tr>
+	<td><label>Ancient&eacute du permis <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label>MOTO</label>&nbsp&nbsp<select name="moto1" id="moto1">
+	
+		<option value="moins">-3 ans</option>
+		<option value="plus">+3 ans</option>
+		</select>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label>AUTO</label>&nbsp&nbsp<select name="auto1" id="auto1">
+	
+		<option value="moins">-3 ans</option>
+		<option value="plus">+3 ans</option>
+		</select>
+		
+	</td>
+	</tr>
+	<tr>
+	<td><label>Nombre total sinistre responsable <br/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <select name="sinistre" id="sinistre">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		</select>
+	</td>
+	</tr>>
+	
+	<tr>
+	<td>Serez-vous le titulaire de la carte grise ? <br/> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </td>
+	<td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <select name="carte" id="carte">
+			<option value="Oui">Oui</option>
+			<option value="Bon">Non</option>)
+		 </select> 
+	</td>
+	</tr>
+	
+
+	</tbody>
+	</table>
+	
+	<br/>
+
+	<a href="devis.html">
+	<img src="../images/retour.jpg"  alt="contour" />
+	</a>	
+	
+	<input type="submit" value="Envoyer"/>
+	
+	</div>
+	
+	</body>
+</html>

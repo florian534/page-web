@@ -1,0 +1,16 @@
+
+caption{
+	background-color:#f0fff0;
+	border:solid 2px;
+	border-bottom:solid 0px
+}
+table{
+	position:absolute;
+	margin-left:300px;
+	margin-top:30px;
+	background-color: #f0fff0;
+}
+
+td{
+	border:dotted 1px
+}

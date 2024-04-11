@@ -1,0 +1,37 @@
+body{
+	background-color:#f0fff0;
+	margin-bottom: 500px
+}
+
+
+
+table{
+    overflow: hidden;
+	border-color:black;
+	background-color:#f0fff0;
+}
+
+p{	
+	position:relative;
+	background-color:white;
+	border-radius: 10px;
+	border-top: dotted 3px;
+	border-bottom:dotted 3px;
+	border-left: dotted 3px;
+	border-right:dotted 3px;
+	margin-right:500px;
+	margin-left:500px;
+}
+
+tbody{
+	border:1px solid black;
+	border-radius: 10px;
+	width:120px;
+	text-align:center;
+}
+
+font{
+	background-color:#f0fff0
+}
+
+

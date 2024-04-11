@@ -1,0 +1,281 @@
+<html>
+	<head>
+		<title>amp_mutuelle</title>
+		<link rel="stylesheet" type="text/css" href="../css/css_mutuelle.css" />
+	</head>
+	
+	<body>
+	
+	<span class="p">
+	
+	<div align="center">
+	<img src="../images/mutuelle_obligatoire_dentreprise.jpg"  alt="contour"  height="500" width="1000"/>
+	</div>
+	
+	<font size="3">
+	<p>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp AMP privil&eacutegie la souscription d'une compl&eacutementaire sant&eacute aupr&egraves d'une mutuelle nationale au r&eacutegionale:car pas de b&eacuten&eacutefice effectu&eacute sur les &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcotisations des adh&eacuterents ET une MUTUALISATION TOTALE du risque sur les adh&eacuterents. <br/>
+	<ul>
+	<li><u>Les avantages de nos mutuelles sont les suivantes:</u> </li> <br/>
+	</font>
+	<font size="2">
+	<ol>
+	<li>MUTUELLE SANS EXCLUSION m&ecircme pour les sportifs &agrave hauts risques</li> <br/>
+	<li>UNE GARANTIE VIAGERE d&egraves l'adh&eacutesion </li> <br/>
+	<li>PAS DE LIMITE D'AGE pour effectuer une adh&eacutesion </li> <br/>
+	<li>PAS DE DELAI D'ATTENTE quelque soit la maladie affectant l'adh&eacuterent PAS DE DELAI DE CARENCE donc une couverture IMMEDIATE <br/><br/>
+	<b>Parfois un d&eacutelai d'attente (suivant produit souscrit) pour b&eacuten&eacuteficier des renforts et d&eacutepassement d'honoraire</b> </li><br/>
+	<li>PAS DE QUESTIONNAIRE MEDICALE m&ecircme pour une maladie d&eacuteclar&eacutee </li><br/>
+	<li>PROTECTION JURIDIQUE MEDICALE suivant le type de contrats souscrit (erreurs m&eacutedicales,infections nosocomiales contract&eacutees en milieux hospitaliers...)</li><br/>
+	<li>ASSISTANCE RAPATRIEMENT / Monde entier +25 km du domicile suivant le contrat, et voir m&ecircme en Option dans son pays d'origine (voir conditions).</li><br/>
+	<li>REMBOURSEMENT DE LA TOTALITE DES VIGNETTES (bleues,blanches,oranges,hom&eacuteopathie,g&eacuten&eacuteriques,accessoires,etc...) selon garanties souscrites / prescription </li><br/>
+	<li>ACCEPTONS: CHAQUE SANTE CONSEIL GENERAL DE LA REUNION & AIDE &agrave la MUTUALISATION </li>
+	</ul>
+	</p>
+	</font>
+	<br/><br/>
+	<form action="Envoye.php" method="POST">
+	
+	<div align="center">
+    
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	
+	
+	<tr>
+	<td>
+	<fieldset>
+		<legend>VOUS</legend>
+		<label>Date de naissance</label> : <input type="text" name="Datedenaissance" id="Datedenaissance" placeholder="Ex: 01/01/2000" size="30" maxlength="10"/> 
+		
+		<br/><br/>
+		
+		<label for="Regime social"> R&eacutegime social :</label>
+		<select name="Regime social" id="Regimesocial">
+			<option value="Régimegénéral">R&eacutegime g&eacuten&eacuteral</option>
+			<option value="Travailleursnonsalariés">Travailleurs non salari&eacutes</option>
+			<option value="Alsace Moselle">Alsace Moselle</option>
+			<option value="Régime Agricole - MSA">R&eacutegime Agricole</option>
+		</select>
+		
+		<br/><br/>
+		
+		<label for=Profession> Profession: </label>
+		<select name="Profession" id="Profession">
+			<option value="Artisant">Artisan</option>
+			<option value="Cadre">Cadre</option>
+			<option value="Chefdentreprise">Chef d'entreprise</option>
+			<option value="Commerçant">Commer&ccedilant </option>
+			<option value="Employé">Employ&eacutee </option>
+			<option value="Enseignant">Enseignant </option>
+			<option value="Etudiant">Etudiant </option>
+			<option value="Exploitantagricole">Exploitant agricole </option>
+			<option value="Fonctionnaire">Fonctionnaire </option>
+			<option value="Fonctionnaire territorial">Fonctionnaire territorial </option>
+			<option value="Noncadre">Non cadre </option>
+			<option value="Ouvrier">Ouvrier </option>
+			<option value="Professionlibérale">Profession lib&eacuterale </option>
+			<option value="Retraité">Retrait&eacute </option>
+			<option value="Retrait&eacutedelafonctionterritoriale">Retrait&eacute de la fonction territoriale </option>
+			<option value="Salariéagricole">Salari&eacute agricole </option>
+			<option value="Sansprofession">Sans profession </option>
+			</select>
+			
+			<br/><br/>
+			
+			<label>Code postal</label> : <input type="text" name="Codepostale"/> 
+			
+			<br/><br/>
+			
+			<label>Date d'effet</label> : <input type="text" name="Datedeffet" id="Datedeffet" placeholder="Ex: 01/08/2016" size="30" maxlength="10"/>
+		
+			
+		</fieldset>
+		</td>
+		
+		<td>
+		<br/><br/>
+		
+		<fieldset>
+
+			<legend>Votre conjoint(e)</legend>
+			<label>Date de naissance</label> : <input type="text" name="Datedenaissance" id="Datedenaissance" placeholder="Ex: 01/01/2000" size="30" maxlength="10"/>
+		
+			
+		<br/><br/>
+		
+		<label for="Regimesocial"> R&eacutegime social :</label>
+		<select name="Regimesocial" id="Regime social">
+			<option value="Régimegénéral">R&eacutegime g&eacuten&eacuteral</option>
+			<option value="Travailleursnonsalariés">Travailleurs non salari&eacutes</option>
+			<option value="AlsaceMoselle">Alsace Moselle</option>
+			<option value="RégimeAgricoleMSA">R&eacutegime Agricole</option>
+		</select>
+		
+		<br/><br/>
+		
+		<label for=Profession> Profession: </label>
+		<select name="Profession" id="Profession">
+			<option value="Artisan">Artisan</option>
+			<option value="Cadre">Cadre</option>
+			<option value="Chefdentreprise">Chef d'entreprise</option>
+			<option value="Commerçant">Commer&ccedilant </option>
+			<option value="Employé">Employ&eacutee </option>
+			<option value="Enseignant">Enseignant </option>
+			<option value="Etudiant">Etudiant </option>
+			<option value="Exploitantagricole">Exploitant agricole </option>
+			<option value="Fonctionnaire">Fonctionnaire </option>
+			<option value="Fonctionnaireterritorial">Fonctionnaire territorial </option>
+			<option value="Noncadre">Non cadre </option>
+			<option value="Ouvrier">Ouvrier </option>
+			<option value="Professionlibérale">Profession lib&eacuterale </option>
+			<option value="Retraité">Retrait&eacute </option>
+			<option value="Retraitédelafonctionterritoriale">Retrait&eacute de la fonction territoriale </option>
+			<option value="Salariéagricole">Salari&eacute agricole </option>
+			<option value="Sansprofession">Sans profession </option>
+			</select>
+		</fieldset>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			
+			
+		<br/><br/>
+		
+		<fieldset>
+			<legend>Enfants ( +	&acircg&eacutees )</legend>
+			
+			<fieldset>
+			<legend>1er enfant</legend>
+			<label>Date de naissance</label> : <input type="text" name="Date de naissance" id="Date de naissance" placeholder="Ex: 01/01/2000" size="30"/> <br/>
+		<br/><br/>
+		
+		<label for="Regimesocial"> R&eacutegime social :</label>
+		<select name="Regimesocial" id="Regime social">
+			<option value="Régimegénéral">R&eacutegime g&eacuten&eacuteral(CGSS)</option>
+			<option value="Travailleursnonsalariés">Travailleurs non salari&eacutes</option>
+			<option value="AlsaceMoselle">Alsace Moselle</option>
+			<option value="RégimeAgricole - MSA">R&eacutegime Agricole</option>
+			<option value="Autres">Autres</option>
+		</select>	
+		</fieldset>
+			
+		
+
+		
+		<br/><br/>
+		
+		<fieldset>
+			<legend>2&eacuteme enfant</legend>
+			<label>Date de naissance</label> : <input type="text" name="Date de naissance" id="Date de naissance" placeholder="Ex: 01/01/2000" size="30"/> <br/>
+		<br/><br/>
+		
+		<label for="Regimesocial"> R&eacutegime social :</label>
+		<select name="Regimesocial" id="Regimesocial">
+			<option value="Régimegénéral">R&eacutegime g&eacuten&eacuteral(CGSS)</option>
+			<option value="Travailleursnonsalariés">Travailleurs non salari&eacutes</option>
+			<option value="AlsaceMoselle">Alsace Moselle</option>
+			<option value="RégimeAgricole - MSA">R&eacutegime Agricole</option>
+			<option value="Autres">Autres</option>
+		</select>	
+		</fieldset>
+		
+		<br/><br/>
+		
+		<fieldset>
+			<legend>Gratuit&eacute au 3&eacuteme enfant</legend>
+			<label>Date de naissance</label> : <input type="text" name="Date de naissance" id="Date de naissance" placeholder="Ex: 01/01/2000" size="30"/> <br/>
+		<br/><br/>
+		
+		<label for="Regimesocial"> R&eacutegime social :</label>
+		<select name="Regimesocial" id="Regime social">
+			<option value="Régimegénéral">R&eacutegime g&eacuten&eacuteral(CGSS)</option>
+			<option value="Travailleursnonsalariés">Travailleurs non salari&eacutes</option>
+			<option value="AlsaceMoselle">Alsace Moselle</option>
+			<option value="RégimeAgricole - MSA">R&eacutegime Agricole</option>
+			<option value="Autres">Autres</option>
+		</select>	
+		</fieldset>
+		
+		</td>
+		
+		<td>
+		
+		
+		<br/><br/>
+		
+		<fieldset>
+			<legend>Vos coordonn&eacutees </legend>
+			<p>
+			Civilit&eacute <br/> 
+			<input type="radio" name="civilité" value="Femme" id="Femme" /> <label for="Femme">Femme </label><br/>
+			<input type="radio" name="civilité" value="Homme" id="Homme" /> <label for="Homme">Homme </label><br/>
+		<br/>
+		<label>Pr&eacutenom </label> : <input type="text" name="Prénom" id="Prénom" size="30" />
+		<br/><br/>
+		<label>Nom</label> : <input type="text" name="Nom" id="Nom" size="30"/>
+		<br/><br/>
+		<label>Email</label> : <input type="text" name="Email" id="Email" size="30" />
+		<br/><br/>
+		<label>T&eacutel&eacutephone</label> : <input type="text" name="Téléphone" id="Télephone" size="30"/>
+			</p>
+		</fieldset>
+		
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		
+		<br/><br/>
+		
+		
+	<fieldset>
+		<legend>+ </legend>
+		<p>
+		Avez-vous besoin de renfort: <br/> <br/>
+		<label>En dentaire ? </label>
+		<select name="En dentaire" id="En dentaire">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+		</select>
+		<br/><br/>
+		<label>En optique ? </label> 
+		<select name="En optique" id="En optique">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+		</select>
+		<div align="down">
+		<label>En hospitalisation ? </label>
+		<select name="Hospitalisation" id="Hospitalisation">
+			<option value="Non">Non</option>
+			<option value="Oui">Oui</option>
+		</div>
+	</fieldset>
+	
+	</td>
+	</tr>
+	
+	</tbody>
+	</table>
+	
+	</div>
+	
+	<br/> <br/>
+	<div align="center">
+	<a href="../../accueil.html">
+	<img src="../images/retour.jpg"  alt="contour" />
+	</a>
+	<input type="submit" value="ENVOYER"/>
+	</div>
+		
+	</form>
+	</div>
+	
+	</span>
+	</body>
+</html>
+

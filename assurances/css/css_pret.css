@@ -1,0 +1,25 @@
+body{
+	
+	background-color:white;
+	margin-left:200px;
+	margin-right:200px;	
+}
+
+.f {
+	background-color:#FFFFFF;
+	margin-right:10px;
+	margin-left:10px;
+	border:dotted 2px
+}
+
+.cadre{
+	position:absolute;
+	background-color:#f0fff0;
+	border:solid 2px;
+	margin-left:300px;
+	margin-right:200px
+}
+
+.t{
+	opacity:0.5
+}

@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Devis d'assurance automobile</title>
+		<link rel="stylesheet" type="text/css" href="../css/devis_automobile.css" />
+	</head>
+	
+	<body background="../images/devis_automobile1.jpg">
+	
+	<div align="center">
+	
+	<h1> Devis gratuit habitation </h1>
+	
+	<form action="devis_habitation.php" method="POST">
+	
+	<label>Nom:</label><input type="text" name="Nom" id="Nom"/> 
+	<label>Pr&eacutenom: </label>  <input type="text" name="Prénom" id="Prénom"/>	
+	<label>Date de naissance:</label><input type="text" name="datedenaissance" id="datedenaissance"/> <br/><br/>
+	<label>Num&eacutero de t&eacutel&eacutephone:</label> <input type="text" name="numero" id="numero"/> 
+	<label>Adresse email:</label> <input type="text" name="adresse" id="adresse"/> 
+	<label>Code postal:</label> <input type="text" name="code" id="code"/> 
+	<br/><br/><br/><br/>
+	
+	<fieldset>
+	<legend>Objet de risque </legend>
+	
+	<label>Adresse du risque:</label> <input type="text" name="adresse" id="adresse"/> <br/><br/>
+	<label>Surface (CHOB): </label> <input type="text" name="surface" id="surface"/> <br/><br/>
+	<label>Capital mobilier: </label><input type="text" name="capitale" id="capitale"/> <br/><br/>
+	<label for="qualité:"> Qualit&eacute de l'occupant :</label>
+		<select name="qualité" id="qualité">
+			<option value="Propriétaire">Propri&eacutetaire d'une maison</option>
+			<option value="Locataire">Locataire</option>
+			<option value="occupant">Propri&eacutetaire non occupant</option>
+		</select>
+	</fieldset>
+	
+	<br/>
+	
+	<a href="devis.html">
+	<img src="../images/retour.jpg"  alt="contour" />
+	</a>	
+	
+	<input type="submit" value="Envoyer"/>
+	
+	
+	</form>
+	
+	</div>
+	
+	</body>
+</html>
+	

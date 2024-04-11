@@ -1,0 +1,48 @@
+body{
+	margin-top:0px;
+}
+
+h3{
+	opacity:0.30;
+	position:absolute;
+	margin-right:150px;
+}
+
+
+
+h1{
+	margin-left:500px;
+	margin-bottom:100px
+}
+
+p{
+	margin-left:60px;
+	margin-bottom:100px
+}
+img{
+	background-color:#f0fff0
+}
+
+
+
+
+h2{
+	position:absolute;
+	border:double 2px;
+	margin-bottom: 200px;
+	background-color:white;
+	margin-right:0px;
+	margin-left:450px;
+}
+
+
+
+table{
+	position:absolute;
+	margin-top:500px;
+	margin-left:100px
+}
+
+div{
+	margin-right:70px
+}

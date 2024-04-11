@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Devis d'assurance automobile</title>
+		<link rel="stylesheet" type="text/css" href="../css/devis_automobile.css" />
+	</head>
+	
+	<body background="../images/devis_automobile1.jpg">
+	
+	<div align="center">
+	
+	<h1> Devis gratuit d'assurance automobile </h1>
+	
+	<form action="devis_automobile.php" method="POST">
+	
+	<label>Nom:</label><input type="text" name="Nom" id="Nom"/> 
+	<label>Pr&eacutenom: </label>  <input type="text" name="Prénom" id="Prénom"/>	
+	<label>Date de naissance:</label><input type="text" name="datedenaissance" id="datedenaissance"/> <br/><br/>
+	<label>Num&eacutero de t&eacutel&eacutephone:</label> <input type="text" name="numero" id="numero"/> 
+	<label>Adresse email:</label> <input type="text" name="email" id="email"/> 
+	<label>Code postal:</label> <input type="text" name="code" id="code"/> 
+	
+	<br/><br/>
+	
+	<table border="1"cellspacing="1" bordercolor="black">
+	<tbody>
+	<tr>
+		<td> <label> Marque: </label>  <input type="text" name="véhicule" id="véhicule"/> </td>
+		<td> <label> Mise en circulation: </label>  <input type="text" name="miseencirculation" id="miseencirculation"/> </td>
+	</tr>
+	<tr>
+		<td> <label> Mod&eacutele usuel du v&eacutehicule: </label>  <input type="text" name="immatriculation" id="immatriculation"/> </td>
+		<td> <label> Puissance fiscale (P6) : </label>  <input type="text" name="puissancefiscale" id="puissancefiscale"/> </td>
+	</tr>
+	<tr>
+		<td> <label> Date du permis </label>  <input type="text" name="datedupermis" id="datedupermis"/> </td>
+		<td> <label> Coef Bonus-Malus </label>  <input type="text" name="coefbonusmalus" id="coefbonusmalus"/> </td>
+	</tr>
+	</tbody>
+	</table>
+	<br/> <br/>	
+	
+	<label for="Formule:">Formule : </label>
+		<select name="Formule" id="Formule">
+			<option value="F1">F1 : RC + DR + PJ + ASSIST</option>
+			<option value="F2">F2 : F1 + BDG </option>
+			<option value="F3">F3 : F1 + VOL/INC </option>
+			<option value="F4">F4 : F1 + BDG + VOL/INC </option>
+			<option value="F5">F5 : F1 + BDG + VOL/INC + DTA </option>
+		</select>
+		
+	<p> <b>RC:</b>  Responsabilit&eacute Civile <br/> <br/>
+	<b>DR:</b>  D&eacutefense-Recours <br/> <br/>
+	<b>BDG:</b>  Bris De Glace <br/> <br/>
+	<b>PJ:</b>  Protection Juridique <br/> </br>
+	<b>ASSIST:</b>  Assistance Remarquage <br/> <br/>
+	<b>VOL/INC:</b> Incendie <br/><br/>
+	<b>DTA:</b> Dommage Tous Accident <br/> <br/>
+	</p>
+		
+	<a href="devis.html">
+	<img src="../images/retour.jpg"  alt="contour" />
+	</a>	
+		
+	<input type="submit" value="Envoyer"/>
+	
+	</div>
+	
+	</body>
+</html>
+	
+	
+	
